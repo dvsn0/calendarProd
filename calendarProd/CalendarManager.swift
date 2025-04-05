@@ -7,7 +7,7 @@ class CalendarManager: ObservableObject {
     @Published var events: [GTLRCalendar_Event] = []
     
     // Replace with your actual client ID.
-    private let clientID = "386544930192-f045trabr2hicaqjmu3odq614o8v910j.apps.googleusercontent.com"
+    private let clientID = "removed"
     
     // Google Calendar service instance.
     private let service = GTLRCalendarService()
